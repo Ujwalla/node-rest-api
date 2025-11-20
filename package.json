@@ -1,0 +1,15 @@
+{
+  "name": "node-rest-api",
+  "version": "1.0.0",
+  "description": "A professional and simple Node.js REST API with Express.js.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5"
+  },
+  "author": "Ujwal Kaur Ranjan",
+  "license": "MIT"
+}
