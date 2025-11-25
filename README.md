@@ -1,63 +1,45 @@
-📝 Node REST API (Express.js)
+🌐 Node REST API
 
-A clean and professional REST API backend built using Node.js and Express.js.
-This project demonstrates API design, routing, HTTP methods, and JSON handling — ideal for portfolio and backend fundamentals.
+A simple and powerful REST API built using Node.js and Express.
+Contains full CRUD functionality with clean API routes.
 
-🚀 Features
-
-✔ Create items
-✔ Get all items
-✔ Get a single item by ID
-✔ Delete items
-✔ Organized routing structure
-✔ CORS enabled
-✔ Clean, readable code
-
+🚀 Endpoints
+Method	Endpoint	Description
+GET	/api/items	Get all items
+POST	/api/items	Create new item
+GET	/api/items/:id	Get single item
+DELETE	/api/items/:id	Delete item
 
 🛠 Tech Stack
-Node.js
-Express.js
-JavaScript (ES6+)
-CORS
 
+1.Node.js
 
-📂 Folder Structure
+2.Express
 
-node-rest-api/
-│── package.json
-│── index.js
-│── routes/
-│   └── items.js
-│── README.md
+3.CORS
 
-📌 API Endpoints
-GET /
+4.JavaScript
 
-Health check →
-Returns:
-{ "status": "Node REST API running successfully" }
+📁 Folder Structure
+routes/
+ └── items.js
+index.js
+package.json
 
-
-GET /api/items
-Fetch all items.
-
-
-POST /api/items
-Add a new item.
-Body:
-{
-  "name": "Milk"
-}
-
-
-GET /api/items/:id
-Get a single item by ID.
-
-
-DELETE /api/items/:id
-Delete an item by ID.
-
-
-💻 Run Locally
+▶️ How to Run
 npm install
 npm start
+
+🎯 What I Learned
+
+1.Route handling
+
+2.Building APIs
+
+3.CRUD operations
+
+4.Express middleware
+
+5.Clean backend structure
+
+
